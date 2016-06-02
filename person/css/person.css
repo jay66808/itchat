@@ -1,0 +1,113 @@
+.nav {
+  width: 100%;
+  height: 30px;
+  background-color: #DDFFDD;
+}
+.nav #login {
+  color: red;
+}
+.nav #exit {
+  color: blue;
+}
+.nav .nav_right {
+  float: right;
+  padding-top: 5px;
+  text-decoration: none;
+  color: blue;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.bd {
+  background-color: #CCCCFF;
+}
+.title {
+  width: 100%;
+  height: 30px;
+  background-color: #666666;
+}
+.body {
+  width: 950px;
+  height: 2000px;
+  background-color: #AAAAAA;
+  border-left: 1px solid #888888 ;
+  border-right: 1px solid #888888 ;
+  margin-top: 10px;
+  margin-right: auto ;
+  margin-left: auto ;
+}
+.body .first {
+  width: 950px;
+  height: 250px;
+  background-color: #DDDDDD;
+  margin-right: auto ;
+  margin-left: auto ;
+  font-family: Microsoft YaHei ;
+  font-size: 20px;
+  font-weight: 900;
+}
+.body .first #photo {
+  width: 170px;
+  height: 170px;
+  margin-left: 22px;
+  position: relative;
+  top: 23px;
+}
+.body .first #name {
+  width: 400px;
+  height: 50px;
+  position: relative;
+  left: 230px;
+  bottom: 150px;
+  text-align: left;
+}
+.body .first #brief {
+  width: 675px;
+  position: relative;
+  left: 230px;
+  bottom: 160px;
+  border-top: 1px solid;
+}
+.body .second {
+  width: 600px;
+  height: 900px;
+  margin-left: 20px;
+  margin-top: 16px;
+
+  background-color: #DDDDDD;
+  z-index: 2;
+}
+.body .right {
+  width: 290px;
+  height: 300px;
+  float: right;
+  margin-top: -900px;
+  margin-right: 20px;
+  background-color: #DDDDDD;
+  display: inline;
+}
+.information {
+  font-size: 20px;
+  font-style: #FFFFFF;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  padding: 3px 25px 5px 20px;
+  
+  margin-left: 5px;
+  position: relative;
+  top: 13px;
+  left: 15px;
+  bottom: 10px;
+  display: inline;
+  z-index: 3;
+}
+.content {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+.pic {
+  margin-left: 30px;
+  padding-top: 30px;
+  width: 160px;
+  height: 100px;
+}
