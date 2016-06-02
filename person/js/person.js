@@ -1,5 +1,5 @@
 
-
+//sss //
 $(document).ready(function(){
 	$(".information").click(function(){
 		$(".information").css("background","rgba(0,0,0,0)");
