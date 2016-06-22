@@ -1,0 +1,274 @@
+body{
+	background: url(../images/bkc.gif);
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.body {
+}
+.nav {
+  width: 100%;
+  height: 25px;
+  background-color: #AAAAAA;
+  position: relative;
+  font-weight: 700;
+  padding-top: 5px;
+}
+.nav #exit {
+  float: right;
+  box-shadow: 2px;
+  
+}
+.nav #user {
+  float: right;
+  margin-right: 7px;
+  color: blue;
+}
+.title {
+  font-size: 40px;
+  text-align: center;
+}
+
+
+}
+.nav {
+  float: right;
+  display: inline-block;
+}
+.up .show {
+  width: 852px;
+  height: 100%;
+  overflow:hidden;
+  background-color: #DDDDDD;
+  margin: 0 auto;
+  
+  margin-bottom: 1px;
+}
+.up .show .id_photo {
+  background-color: blue;
+  width: 120px;
+  height: 120px;
+  margin: 40px 40px 0px 40px ;
+}
+
+
+.up .show .msg_left {
+  width: 200px;
+  height: 300px;
+  background-color:#DDDDDD;
+  border: 1px  solid  #AAAAAA  ;
+  border-right: 0px ;
+    border-left: 0px ;
+      border-bottom: 0px ;
+  float: left;
+  text-align: center;
+  line-height:30px;   
+
+ }
+.up .show .msg_left .name {
+  width: 119px;
+  height: 30px;
+  border-bottom: 1px solid #EEFFEE;
+  background-color: #AAAAAA;
+  border-left: 1px solid white;
+   /* 可以添加hover事件 */
+  margin: 0px 40px 0px 40px ;
+}
+.up .show .msg_left .focus {
+  width: 119px;
+  height: 30px;
+  background-color: #AAAAAA;
+  border-left: 1px solid white;
+  margin: 0px 40px 0px 40px;
+}
+.up .show .msg_left .level {
+  width: 119px;
+  height: 30px;
+  background-color: #AAAAAA;
+  border-bottom: 1px solid #EEFFEE;
+  border-left: 1px solid white;
+  margin: 0px 40px 0px 40px;
+}
+.bkc_change a{
+  font-weight: 500;
+  font-size: 17px;
+  font-family: Microsoft JhengHei ;
+}
+.bkc_change  a:hover{
+  color:#fff;
+  
+}
+.up .show .msg_right {
+  width: 650px;
+  background-color: white;
+  border: 1px solid #AAAAAA;
+  border-right: 0px;
+  float: left;
+  text-align: justify;
+
+}
+.up .show .message {
+  width: 583px;
+  background-color: white;
+  margin: 20px 40px 0px 42px;  
+}
+.up .show .number {
+  width: 30px;
+  height: 20px;
+  background-color: ;
+  float: right;
+}
+.up .show .time {
+  width: 100px;
+  height: 20px;
+  background-color: ;
+  float: right;
+}
+.up .show .reply {
+  width: 44px;
+  height: 20px;
+  margin-left:4px;
+  font-weight: 700;
+  float: right;
+}
+.up .show .like {
+  width: 20px;
+  height: 20px;
+  background: url(../images/like.gif);
+  float: right;
+  position: relative;
+  bottom: 2px;
+}
+.up .show .collet {
+  width: 20px;
+  height: 20px;
+  background: url(../images/collet.gif);
+  float: right;
+  position: relative;
+  bottom: 2px;
+  margin:0px 4px 0px 4px;
+}
+.comment{
+
+display: inline-block;
+margin:10px 25px 10px 0px;
+width:564px;
+border: 1px solid #AAAAAA;
+padding:5px;
+
+}
+
+.comment_reply{
+  float: right;
+  color: blue;
+  font-weight: 700;
+}
+.reply_content{
+  width: 650px;
+  
+  display: inline-block;
+}
+#reply_msg{
+  width: 575px;
+  min-height: 60px;
+  margin: 10px 25px 10px 0px;
+}
+
+.reply_btn{
+  width: 57px;
+  height: 20px;
+  float: left;
+  position: relative;
+  left:520px;
+  margin-bottom: 10px;
+}
+
+.special{
+  height: 16px;
+
+}
+.alr_like{
+  width: 60px;
+  height: 20px;
+  color: red;
+  position: relative;
+  bottom: 3px;
+  left: 518px;
+  display: none;
+  font-weight: 700;
+}
+.down_bkc{
+ background-color: #DDDDDD;
+display: inline-block;
+padding:10px 24px 0px 26px;
+position: relative;
+right: 26px;
+
+}
+
+.down {
+  font-size: 15px;
+  width:  800px;
+  margin: 0 auto;
+  margin-bottom:10px;
+}
+#inp {
+  width: 800px;
+  height: 200px;
+  float: left;
+}
+#sub {
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  float: right;
+  
+}
+.ad_out{
+  width: 852px;
+  margin:0 auto;
+}
+.ad{
+  float:left;
+  margin-top: -1px;
+}
+
+
+
+
+
+
+
+/*导航栏Css*/
+
+*{margin:0px;padding:0px;}
+html,body{height:100%;}
+li{list-style-type:none;}
+img{border:0px;vertical-align:middle;}
+a{text-decoration:none;outline:none;blr:expression(this.onFocus=this.blur());}
+.clear{clear:both;}
+.ce{display:block;width:150px;background:rgb(120,70,31);position:fixed;z-index:5;top:0px;left:0px;margin-top:40px;}
+.ce li{border-bottom: 1px solid rgb(40,40,40);border-top: 1px solid rgb(120,70,31);}
+.more{margin-left: 36px;}
+.ce li a{padding: 10px 10px 10px 40px;color:white;display:block;cursor:pointer;background:url(../images/tu.png) no-repeat 10px center;}
+.ce li a:hover{background:url(../images/tu.png) no-repeat 10px center #AAAAAA;}
+.ce li .dqian{background:none}
+.ce li .xz{background:url(../images/tu.png) no-repeat 10px center rgb(120,70,31);}
+
+.er{display:none;width:150px;background:rgb(100,100,100);}
+.er li{width:100%;border:solid rgb(140,140,140);border-width:1px 0px 0px;}
+.er li a{display:block;padding:10px 10px 10px 20px;color:white;background:none;font-size: 15px;}
+.er .e_li a{background:url(../images/more.png) no-repeat 120px center;}
+.er li a:hover,.er li .sen_x{background:rgb(253,83,49);}
+.er .e_li a:hover,.er .e_li .sen_x{background:url(../images/more.png) no-repeat 120px center rgb(253,83,49);}
+
+.thr{background:rgb(150,150,150);display:none;}
+.thr li{margin-bottom:1px;border-top: 1px solid rgb(180,180,180);position:relative;}
+.er .e_li .thr li a{background:none;}
+.er .e_li .thr li a:hover{background:rgb(249,152,49);}
+.er .e_li .thr li .xuan{background:rgb(249,152,49);}
+.more1{margin-left: 28px;margin-top: -4px;}
+.thr_nr{width:300px;position:absolute;top:0px;left:150px;z-index:10;border:1px solid rgb(201,201,201);display:none;}
+.thr_nr h3{font-weight:normal;font-size:18px;display:block;text-align:center;width:100%;padding:10px 0px;}
+.thr_nr img{width:100%;}
